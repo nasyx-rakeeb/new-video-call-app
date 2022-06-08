@@ -13,7 +13,7 @@ const Video = () => {
 
   const socket = useMemo(() => {
     // https://chatroultte.herokuapp.com
-    return io("https://chatroultte.herokuapp.com", {
+    return io("https://video-backend-100.herokuapp.com/", {
       withCredentials: true,
       extraHeaders: {
         "my-custom-header": "abcd",
